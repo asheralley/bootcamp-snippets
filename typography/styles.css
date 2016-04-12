@@ -1,0 +1,139 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+body {
+	background: #eeeeee;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin:0;
+}
+
+p{
+	line-height: 1.5em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+h1{
+	font-size: 1.8em; /*28.8px */
+	line-height: 1.8em; 
+	margin-top: 2.4em; /*line-height *2 = 3.6 (3.6/3) * 2*/
+	margin-bottom: 1.2em; /*3.6/3*/
+}
+
+h2{
+	font-size: 1.6em; /*25.6px*/
+	line-height: 1.6em; 
+	margin-top: 2.14em; /*line-height *2 = 3.2 (3.2/3) * 2*/
+	margin-bottom: 1.07em; /*3.2/3*/
+}
+
+h3{
+	font-size: 1.4em; /*22.4px*/
+	line-height: 1.4em;
+	margin-top: 1.86em; /*line-height *2 = 3.2 (3.2/3) * 2*/
+	margin-bottom: 0.93em; /*3.2/3*/
+}
+
+h4{
+	font-size: 1.2em; /*19.2px*/
+	line-height: 1.2em; 
+	margin-top: 1.6em; /*line-height *2 = 2.4 (2.4/3) *2 */
+	margin-bottom: 0.53em; /*2.4/3*/ 
+}
+
+h5{
+	font-size: 1.1em; /*17.6px*/	
+	line-height: 1.1em; 
+	margin-top: 0.73em; 
+	margin-bottom: 0.24em;
+}
+
+h6{
+	font-size:.9em; /*14.4px*/
+	line-height: 0.9em; 
+	margin-top: 0.6em; 
+	margin-bottom: 0.2em;
+}
+
+a {
+	color:crimson;
+	text-decoration:none;
+}
+
+a:hover {
+	color:red;
+}
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+	margin: 0 auto;
+	width:88%;
+	max-width: 960px;
+}
+
+.wrapper {
+	padding:1em 0;
+	background: #ffffff;	
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+blockquote{
+	border-left: 5px solid navy;
+	padding-left: 2em;
+	margin: 0;
+}
+
+hr{
+	border: 2px dashed navy;
+}
+
+/* Image replacement technique */
+
+.logo h1 {
+	left: -999em;
+	position: absolute;
+}
+
+.logo {
+	height: 128px;
+	width: 128px;
+	background: url(images/addidas.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

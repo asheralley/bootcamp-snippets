@@ -1,0 +1,100 @@
+body{
+	width: 100%;
+	margin: 0px;
+}
+
+.wrapper{
+	width: 80%;
+	min-height: 600px;
+	background: #ccc;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	min-height: 200px;
+	background: #999;
+}
+
+.logo-menu{
+	float: left;
+	width: 80%;
+	height: 200px;
+}
+
+.logo{
+	width: 100%;
+	height: 180px;
+	background: red;
+}
+
+.menu{
+	width: 100%;
+	height: 20px;
+	background: yellow;
+}
+
+.bio-img{
+	width: 20%; 
+	height: 200px;
+	background: green;
+	float: left; 
+}
+
+.main{}
+.post{}
+.headline{}
+.post-img{}
+.article{}
+.read-more{}
+.aside{}
+.search-signup{}
+.top-articles{}
+.addverts{}
+.email-me{
+	display: none;
+}
+
+@media screen and (max-width: 1000px){
+	.wrapper{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 1200px){
+	.logo{
+		background: black;
+	}
+
+	.bio-img{
+		background: blue;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.bio-img{
+		display: none;
+	}
+
+	.email-me{
+		width: 100%;
+		height: 60px;
+		background: orange;
+		display: block;
+	}
+
+	.logo-menu{
+		width: 100%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
